@@ -1,6 +1,6 @@
 import React from 'react';
 import Item from './Item';
-import './ItemList.css';
+import './Itemlist.css';
 
 function ItemList() {
   const itemsDis = [
