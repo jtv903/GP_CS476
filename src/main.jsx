@@ -15,7 +15,7 @@ function App() {
         <button>Clothing</button>
         <button>Health</button>
         <button>Beauty</button>
-        <button>Category#</button>
+        <button>Category</button>
         <button>Checkout</button>
       </div>
   
