@@ -16,6 +16,7 @@ function App() {
         <button>Health</button>
         <button>Beauty</button>
         <button>Category#</button>
+        <button>Checkout</button>
       </div>
   
       <ItemList />
