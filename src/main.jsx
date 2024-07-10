@@ -1,9 +1,17 @@
 import React from 'react';
+import { Routes, Route, useNavigate } from 'react-router-dom'
 import './main.css';
 import Header from './Header';
 import ItemList from './Itemlist';
 
 function App() {
+
+const navigate = useNavigate();
+  const goToCheckout = () => {
+    navigate('/checkout');
+  };
+
+
   return (
     <div className="App">
       <Header />
@@ -16,7 +24,7 @@ function App() {
         <button>Health</button>
         <button>Beauty</button>
         <button>Category</button>
-        <button>Checkout</button>
+        <button onClick={goToCheckout}>Checkout</button>
       </div>
   
       <ItemList />
@@ -24,4 +32,12 @@ function App() {
   );
 }
 
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/checkout" element={<Checkout />} />
+    </Routes>
+  )
+}
 export default App;
