@@ -3,7 +3,7 @@ import './Cart.css';
 
 function Cart() {
     return(
-     <div className="testing"> Hello World </div> 
+     <div className="testing"> Hello World testing </div> 
   );
 }
 
