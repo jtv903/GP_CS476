@@ -9,4 +9,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <App />
     </BrowserRouter>
   </React.StrictMode>,
+<<<<<<< HEAD:src/App.jsx
 );
+=======
+)
+>>>>>>> parent of ca7a012 (Rename app.jsx to App.jsx):src/app.jsx
