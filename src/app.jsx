@@ -5,7 +5,6 @@ import ItemList from './Itemlist';
 
 
 function App() {
-  return (
     <div className="App">
       <Header />
           <div className="categories">
@@ -21,7 +20,6 @@ function App() {
   
       <ItemList />
     </div>
-  );
 }
 
 export default App;
