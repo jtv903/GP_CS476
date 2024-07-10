@@ -20,6 +20,8 @@ function Checkout() {
   };
 
   return (
+    <body className="checkout-body">
+
       <div className="checkout-page">
         <header>HEADER</header>
 
@@ -176,6 +178,10 @@ function Checkout() {
         </div>
         <footer>FOOTER</footer>
       </div>
+
+
+    </body>
+      
   );
 }
 
