@@ -1,4 +1,4 @@
-body {
+.checkout-body {
     background-color: rgb(243, 243, 243);
     margin: 0; 
     display: flex; 
@@ -6,6 +6,8 @@ body {
     min-height: 100vh; 
     color: black;
     font-weight: bold;
+
+    width: 1920px;
   }
 
   #checkout-pfp-button{
