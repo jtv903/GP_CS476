@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
@@ -14,3 +15,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 =======
 )
 >>>>>>> parent of ca7a012 (Rename app.jsx to App.jsx):src/app.jsx
+=======
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './main'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+>>>>>>> parent of ca7a012 (Rename app.jsx to App.jsx)
