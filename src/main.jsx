@@ -1,27 +1,10 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import ItemList from './components/Itemlist';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './app'
 
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-          <div className="categories">
-            <button>Produce</button>
-            <button>Baby</button>
-            <button>Home Esentials</button>
-            <button>Meat</button>
-            <button>Clothing</button>
-            <button>Health</button>
-            <button>Beauty</button>
-            <button>Category#</button>
-          </div>
-  
-      <ItemList />
-    </div>
-  );
-}
-
-export default App;
+)
