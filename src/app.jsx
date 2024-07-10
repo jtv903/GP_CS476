@@ -18,6 +18,7 @@ function App() {
             <button>Beauty</button>
             <button>Category</button>
             <button>Checkout</button>
+            <button>Cart</button>
           </div>
   
       <ItemList />
